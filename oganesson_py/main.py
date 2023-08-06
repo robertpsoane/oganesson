@@ -3,7 +3,7 @@ from pathlib import Path
 import click
 from colorama import Fore
 
-from oganesson import reporter
+from oganesson_py import reporter
 
 
 from . import validators, exceptions

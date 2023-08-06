@@ -1,7 +1,7 @@
 from __future__ import annotations
 from typing import Optional
 
-from oganesson.analyser.maintainability_index import MIAnalyser
+from oganesson_py.analyser.maintainability_index import MIAnalyser
 
 from .analyser import Analyser, RootAnalyser
 from .cyclomatic_complexity import CCAnalyser

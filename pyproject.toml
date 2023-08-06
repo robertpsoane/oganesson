@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "oganesson"
-version = "0.0.1"
+name = "oganesson-py"
+version = "0.1.0-alpha1"
 description = ""
 authors = ["robertpsoane <robertsoane101@gmail.com>"]
 readme = "README.md"
@@ -24,4 +24,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-oganesson = "oganesson.main:main"
+oganesson = "oganesson_py.main:main"
