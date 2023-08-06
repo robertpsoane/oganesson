@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "oganesson-py"
-version = "0.1.0-alpha1"
+version = "0.1.0-alpha2"
 description = ""
 authors = ["robertpsoane <robertsoane101@gmail.com>"]
 readme = "README.md"
