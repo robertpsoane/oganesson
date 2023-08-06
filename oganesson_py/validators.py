@@ -12,7 +12,8 @@ def validate_path(ctx, param, value) -> List[Path]:
     for path in paths:
         if not path.exists():
             raise click.ClickException(
-                f"File/directory {value} does not exist. Please enter a valid file path."
+                f"File/directory {value} does not exist. Please enter a valid "
+                "file path."
             )
     return paths
 

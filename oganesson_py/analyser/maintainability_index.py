@@ -1,5 +1,4 @@
 from __future__ import annotations
-from pydoc import classname
 
 from typing import Optional
 from pydantic import BaseModel
@@ -7,7 +6,6 @@ from pydantic import BaseModel
 from colorama import Fore
 
 from radon.metrics import mi_visit
-from radon.visitors import Function
 
 from .analyser import Analyser, Result
 
