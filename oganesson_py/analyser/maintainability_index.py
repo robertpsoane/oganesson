@@ -30,7 +30,7 @@ class MIAnalyser:
         other_results = self.next(file) if self.next else []
 
         result = mi_visit(file, multi=self.multi_as_comments)
-        if result < self.threshold:
+        if result <= self.threshold:
             other_results.append(MIResult(mi=result))
 
         return other_results

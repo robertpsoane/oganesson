@@ -5,7 +5,10 @@ from pathlib import Path
 
 
 def validate_path(ctx, param, value) -> List[Path]:
-    paths = list(value) if value else [Path(".")]
+    # import pdb
+
+    # pdb.set_trace()
+    paths = [Path(v) for v in value] if value else [Path(".")]
     for path in paths:
         if not path.exists():
             raise click.ClickException(

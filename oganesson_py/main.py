@@ -71,7 +71,7 @@ def main(
     ignore: set[str],
 ):
     """
-    # Pyquality
+    # Oganesson
 
     A CLI for running quality metrics on Python code.  Currently a wrapper
     around Radon, with intent to add a few extra metrics in time.
