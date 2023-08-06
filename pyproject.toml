@@ -1,9 +1,12 @@
 [tool.poetry]
 name = "oganesson-py"
-version = "0.1.0-alpha2"
-description = ""
+version = "0.1.0-alpha3"
+description = "Minimal CLI for Cyclomatic Complexity and Maintainability Index"
 authors = ["robertpsoane <robertsoane101@gmail.com>"]
 readme = "README.md"
+
+[project.urls]
+"Homepage" = "https://github.com/robertpsoane/oganesson"
 
 [tool.poetry.dependencies]
 python = "^3.10"
